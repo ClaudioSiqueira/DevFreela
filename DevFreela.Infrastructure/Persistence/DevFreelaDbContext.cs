@@ -1,9 +1,6 @@
 ﻿using DevFreela.Core.Entities;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevFreela.Infrastructure.Persistence
 {
@@ -11,21 +8,21 @@ namespace DevFreela.Infrastructure.Persistence
     {
         public DevFreelaDbContext()
         {
-            Projects = new List<Project>()
+            Projects = new List<Project>
             {
-                new Project("Meu projeto ASP NET Core 1", "Minha descrição 1", 1, 1, 10000),
-                new Project("Meu projeto ASP NET Core 2", "Minha descrição 2", 1, 1, 20000),
-                new Project("Meu projeto ASP NET Core 3", "Minha descrição 3", 1, 1, 30000)
+                new Project("Meu projeto ASPNET Core 1", "Minha Descricao de Projeto 1", 1, 1, 10000),
+                new Project("Meu projeto ASPNET Core 2", "Minha Descricao de Projeto 2 ", 1, 1, 20000),
+                new Project("Meu projeto ASPNET Core 3", "Minha Descricao de Projeto 3 ", 1, 1, 30000)
             };
 
-            Users = new List<User>()
+            Users = new List<User>
             {
-                new User("Claudio Siqueira", "crsjunior2001@gmail.com", new DateTime(2001, 7, 17)),
-                new User("Jeniffer Nathalia", "jenathpaiva@gmail.com", new DateTime(2000, 12, 11)),
-                new User("Pedro Silva", "pedrosilva@gmail.com", new DateTime(2002, 3, 27)),
+                new User("Luis Felipe", "luisdev@luisdev.com.br", new DateTime(1992, 1, 1)),
+                new User("Robert C Martin", "robert@luisdev.com.br", new DateTime(1950, 1, 1)),
+                new User("Anderson", "anderson@luisdev.com.br", new DateTime(1980, 1, 1)),
             };
 
-            Skills = new List<Skill>()
+            Skills = new List<Skill>
             {
                 new Skill(".NET Core"),
                 new Skill("C#"),
@@ -36,5 +33,6 @@ namespace DevFreela.Infrastructure.Persistence
         public List<Project> Projects { get; set; }
         public List<User> Users { get; set; }
         public List<Skill> Skills { get; set; }
+        public List<ProjectComment> ProjectComments { get; set; }
     }
 }
