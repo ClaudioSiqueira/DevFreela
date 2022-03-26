@@ -39,3 +39,4 @@ C:\Users\Claudio\source\repos\DevFreela\DevFreela.API\bin\Debug\net5.0\DevFreela
 C:\Users\Claudio\source\repos\DevFreela\DevFreela.API\bin\Debug\net5.0\DevFreela.Application.pdb
 C:\Users\Claudio\source\repos\DevFreela\DevFreela.API\bin\Debug\net5.0\DevFreela.Core.pdb
 C:\Users\Claudio\source\repos\DevFreela\DevFreela.API\bin\Debug\net5.0\DevFreela.Infrastructure.pdb
+C:\Users\Claudio\source\repos\DevFreela\DevFreela.API\obj\Debug\net5.0\DevFreela.API.MvcApplicationPartsAssemblyInfo.cs
